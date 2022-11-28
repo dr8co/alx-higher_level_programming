@@ -1,1 +1,1 @@
-./"$PYFILE"
+python3 $PYFILE

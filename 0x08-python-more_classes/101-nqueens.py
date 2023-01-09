@@ -3,7 +3,7 @@
 """Solves the N-queens puzzle.
 
 Determines all possible solutions to placing N
-N non-attacking queens on an NxN chessboard.
+non-attacking queens on an NxN chessboard.
 
 Example:
     $ ./101-nqueens.py N
@@ -33,7 +33,7 @@ def board_deepcopy(board):
     """Return a deepcopy of a chessboard."""
     if isinstance(board, list):
         return list(map(board_deepcopy, board))
-    return (board)
+    return board
 
 
 def get_solution(board):
@@ -44,7 +44,7 @@ def get_solution(board):
             if board[r][c] == "Q":
                 solution.append([r, c])
                 break
-    return (solution)
+    return solution
 
 
 def xout(board, row, col):
@@ -82,7 +82,6 @@ def xout(board, row, col):
     for r in range(row - 1, -1, -1):
         if c < 0:
             break
-        board[r][c]
         c -= 1
     # X out all spots diagonally up to the right
     c = col + 1
@@ -113,7 +112,7 @@ def recursive_solve(board, row, queens, solutions):
     """
     if queens == len(board):
         solutions.append(get_solution(board))
-        return (solutions)
+        return solutions
 
     for c in range(len(board)):
         if board[row][c] == " ":
@@ -123,7 +122,7 @@ def recursive_solve(board, row, queens, solutions):
             solutions = recursive_solve(tmp_board, row + 1,
                                         queens + 1, solutions)
 
-    return (solutions)
+    return solutions
 
 
 if __name__ == "__main__":

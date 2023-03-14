@@ -1,2 +1,2 @@
 #!/usr/bin/node
-export default class Rectangle {};
+export default class Rectangle {}

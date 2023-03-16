@@ -1,5 +1,11 @@
 # Higher level programming
 
+## Table of Content
+
+* [About](#about)
+* [Projects](#projects)
+* [Acknowledgement](#acknowledgement)
+
 ## About
 
 This repository contains projects on higher level
@@ -13,6 +19,7 @@ The concepts covered:
   * Abstraction
   * Polymorphism
 * SQL queries
+* SQL joins
 * Unit testing
 * Object scopes
 * Exceptions
@@ -41,3 +48,11 @@ The projects are:
 * [0x0E. SQL - More queries](./0x0E-SQL_more_queries/)
 * [0x12. JavaSript - Warm up](./0x12-javascript-warm_up/)
 * [0x13. JavaScript - Objects scope](./0x13-javascript_objects_scopes_closures/)
+
+## Acknowledgement
+
+Author: [Ian Duncan](https://github.com/dr8co "Ian's Github profile").
+
+All work contained in this repository was completed as part of the curriculum for the
+12-month [ALX Software Engineering Programme](https://www.alxafrica.com/ "learn more"),
+offered in collaboration with [Holberton School](https://www.holbertonschool.com/ "Holberton School").

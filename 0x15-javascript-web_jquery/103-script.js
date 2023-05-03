@@ -10,7 +10,7 @@ $('document').ready(function () {
 });
 
 function translate () {
-  const url = 'https://www.fourtonfish.com/hellosalut/hello/?';
+  const url = 'https://www.fourtonfish.com/hellosalut/?';
   $.get(url + $.param({ lang: $('INPUT#language_code').val() }), function (data) {
     $('DIV#hello').html(data.hello);
   });

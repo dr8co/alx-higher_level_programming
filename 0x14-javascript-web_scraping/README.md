@@ -9,6 +9,6 @@ and use that information to adjust their own prices accordingly.
 Web scraping is also used for things like research, price monitoring, and machine learning.
 
 The tasks in this project are focused on web scraping using JavaScript.
-All the code follows the Semistandard style.
+All the code follow the Semistandard style.
 
 [![js-semistandard-style](https://raw.githubusercontent.com/standard/semistandard/master/badge.svg)](https://github.com/standard/semistandard)
